@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap");
+
+body {
+
+    background-color:  lightgrey;
+}
+
+header, main, footer {
+    background-color: white;
+    width: 700 px;
+    margin: 0 auto;
+}
+header { 
+/*    background-coor: white;
+    width: 700px; */
+
+/*    height: 200px;*/
+    position: relative;
+
+
+}
+
+nav { 
+/*    border: 1px solid green; */
+    width: 550px;
+    position: absolute;
+    right:0;
+    top: 75px;
+    text-align: right;
+    
+}
+
+nav ul {
+    padding-right: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+/*    border: 1px solid green;  */
+    margin: 10px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 24px;
+}
+
+
+nav ul li a:link{
+    color: grey;    
+}
+
+nav ul li a:hover{
+    color: red;   
+}
+
+
+
+
+main {
+/*    background-color: white;
+    width: 700 px;  */
+
+    height: 500px;
+
+}
+
+footer {
+/*    background-color: white;
+    width: 700 px;  */
+
+    height: 100px; 
+}
