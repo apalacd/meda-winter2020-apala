@@ -42,13 +42,15 @@ if (february === 2) {}
 
 //for() {}              ---- run the most, mostly run with increment, 
 
-while (false)  {}
+
+/*while (false)  {}
 
 do {
 
 } while (false);
+*/
 
-for(let i= 0; true; I++) {
+for(let i= 0; false; i++) {
 
 }
 
@@ -61,8 +63,8 @@ function myFunction(parameter1, parameter2){
      return "hello";
 }
 
-myFunction(argument1, argument2, argument3);
-myFunction("1", true. 400);
+/*myFunction(argument1, argument2, argument3);
+myFunction("1", true, 400);
 
 
 // Anonymous Call back function
@@ -96,11 +98,11 @@ let userInput;
 // Type conversion into Booleans
 //Falsys
 
-0;
-"";
-undefined;
-NaN; //Does not convert to a boolean, need to use isNan() function.
-null;
+//0;
+//"";
+//undefined;
+//NaN; //Does not convert to a boolean, need to use isNan() function.
+//null;
 
 //if (NaNisNan)      Example how to use Nan here
 if (userInput) {
@@ -116,4 +118,90 @@ parseFloat("100.100")  // Becomes 100.1
 
 
 january.toString(); // Takes number from variable or property and converts to a string.
+
+// myArray.toSting();
+
+// Logical Operators and Comparison Operators
+
+/*
+
+==
+===
+>
+<
+>=
+<=
+!=  Not equal to
+!==
+
+*
+/
++
+-
+%  Remainder
+
+=
+++
+--
+
++=
+-+
+*=
+/=
+
+
+&&
+||
+!
+
+
+*/
+
+if ("100" !== 100){
+    console.log("is true");
+} else {
+    console.log("is false");
+}
+
+// Objects and Arrays
+
+let myArray = [1, 2, 3, 4];   //12 undefined follwing 4 in this array
+
+myArray[3];
+myArray[0] = 100;
+myArray[17] = 9;  // will return 18 as it counts undefined in the myArray
+console.log(myArray.length);
+myArray[10] = () => {console.log("goodbye")}
+
+// add to end and beginning. need a value in argument.
+myArray.push();
+myArray.unshift();
+//remove to end and beginning.
+myArray.pop();
+myArray.shift();
+
+
+let myObject = {
+    firstNum: 1,
+    secondNum: 2,
+    thirdNum: 2,
+    fourthNum: 4
+
+};
+
+myObject.firstNum;
+myObject["second Num"];
+myObject.thirdNum = "three";
+
+let myAssignedFunc = function () {};
+
+let myObjectWithFunc = {
+    funcName: () => {console.log("hello there")}
+};
+
+myObjectWithFunc.funcName();
+Math.floor();
+Math.random();
+
+
 
