@@ -1,0 +1,36 @@
+Why are you taking the back-end class? What are your current expectations of the back-end class?
+
+I want to learn about how the front end and back end communicate. Also, I would like to learn where and how the data is manipulated and presented using backend code. I would like to learn the advance functions and libraries of javascript.
+
+
+Before front-end class, did you have coding experience? What computer language(s) and how long ago?
+Yes. I knew some Python fundamentals and sql programming. I also worked in application software development using Oracle PL/SQL and some Java in the distant past around 13-14 years ago.
+
+What front-end topics did you find difficult or what did you struggle with?
+Syntax and functions within functions, parameters, arguments throw me off at times. I struggle with that concept, especially when working with arrays.
+
+
+Did the front-end class meet your expectations? Explain how it did or did not.
+Yes. I really found the frond-end class interesting. After a long career break, front-end class was refreshing and motivating as it helped me in visually shaping my ideas and thoughts. I was able to channelize my eye for an UX design and art in developing a website which was very accomplishing.
+
+
+Are you switching careers or looking to add skills to your resume? Why?
+I took a long break from my tech career to care for my kids and a senior family member. Alongside, I explored teaching as a career for a few years, which balanced well with my care commitments at that time. However, I was missing something, a sense of belonging, perhaps. I figured that I was missing working in tech, indeed. I decided to return to tech and ever since have been working on upgrading my professional and technical skills to fill the gap and get employed. Having had an experience in the techno-functional management roles, I am looking for an opportunity in the tech space.
+
+
+What books or other resources are you depending on outside of class to enhance your learning?
+I am mostly checking out Lynda.com short courses, Udemy and w3schools tutorials, freeCodeCamp tutorials, youTube learning videos, google. I have attended a short term cohort in Python, at Fremont Union High School Adult Education.
+
+
+Other than HTML, CSS, and JavaScript, what other computer languages are you currently learning or are interested in learning? Why?
+I am interested in learning Python with Statistics, Programming in Excel to learn about data and data visualization. Eventually, I am interested in learning about how to develop analytical tools, apps and plug-ins perhaps. 
+
+
+Where do you see the industry going in the future?
+The future of tech industry is geared towards Artificial Intelligence, internet based work and trade and dependance on data itself. Data and it's interpretation is the key in driving analysis and for decision making in any field these days and in the years to come. Artificial intelligent will provide as applications and internet will continue to be the portal for connectivity.
+
+
+After taking the back-end class do you plan or have already planned on continuing your learning in tech? What specifically do you plan on focusing?
+I plan on continuing to my journey of learning as long as tech continues to evolve. Even after I get employed, I will continue to learn and pick up new skills in tech. After the back-end class, I would like to take up classes in Python and Statistics, Tableau, Excel Programming
+
+
