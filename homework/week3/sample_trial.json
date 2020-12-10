@@ -1,0 +1,39 @@
+
+{
+    "lastName": "Doe",
+    "ability": 'is eating food',
+    possessions: ["car", "house", "refrigerator"],
+    deceased: false,
+    age: 45,
+    "is fun": false,
+    lastUpdate: "11/4/2020",
+    lastUpdateObject: new Date(Date.now()),
+    argument: "whatever"
+}
+
+
+{
+    "lastName": "Doe",
+    "ability": 'is eating food',
+    possessions: ["car", "house", "refrigerator"],
+    deceased: false,
+    age: 45,
+    "is fun": false,
+    lastUpdate: "11/4/2020",
+    lastUpdateObject: new Date(Date.now()),
+    argument: "hi"
+}
+
+
+
+{
+    "History of Arguments":
+    [
+        {
+            "arg": "John"
+        },
+        {
+            "arg": "45"
+        }
+    ]
+}

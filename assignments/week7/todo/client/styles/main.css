@@ -1,0 +1,25 @@
+body {
+    background-color: blanchedalmond
+}
+
+#loading-icon {
+/*    visibility: hidden; */
+    display: none;
+}
+
+#submit-message {
+    display: none;
+}
+
+#loader {
+    height: 26px;
+    width: 26 px;
+    display: inline-block;
+}
+
+#submit-area{
+    height: 26px;
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+}

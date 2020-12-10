@@ -1,0 +1,32 @@
+A Todo Note should have the following information:
+Author (future feature)
+Title
+Note text
+Completed status
+Archived status
+Priority Level
+Categories (future feature)
+TimeStamp
+
+FRONT- END REQUEST OBJECT :
+{ 
+author: Null
+title: String
+text: String
+completed: Boolean
+Archived: Boolean
+Priority: Number
+Categories: Null
+Timestamp: Data Object (milliseconds from Data Object)
+}
+
+BACK-END RESPONSE OBJECT:
+{
+saved: Boolean
+eroor: String (future feature)
+}
+
+FRONT-END REQUEST:
+Name: newNote
+Send: Request Object Above
+Return: Response Object Above
