@@ -61,6 +61,7 @@ app.post("/newNote", (request, response) => {
        
            const responseObject = {
                saved: false,
+               savedTasj: newNoteDocument,
                error: null
            };
 
@@ -69,10 +70,50 @@ app.post("/newNote", (request, response) => {
            } else {
                 responseObject.saved = true;
                 response.send(responseObject);
-           };
+           }
 
         
     });      
 
+
+});
+
+app.post("/getList", (request, response) => {
+    todoModel.find({}, (error, results) => {
+
+        let responseObject = {
+            list: results, //array of objects passed as an argument
+            error: null
+        };
+
+        if (error) {
+            console.log("failed to read database.");
+        } else {
+            response.send(responseObject);
+        };
+
+});
+
+});
+
+// variables for receiving req for request and res for results
+app.post("/modify", (req, res) => {
+
+    let request = req.body;
+
+    if (request.action === "delete") {
+        todoModel.findByIdAndDelete(request.id, (error, deleted) => {     // Mongoose method
+            if (error) {
+                console.log(error);
+            } else {
+                let response = {
+                    copy: deleted   //copy is the Object that holds original task for undo
+                }
+
+                res.send(response);
+            }
+            
+        });    
+    }
 
 });

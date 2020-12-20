@@ -7,6 +7,7 @@ Archived status
 Priority Level
 Categories (future feature)
 TimeStamp
+Duedate (future feature)
 
 FRONT- END REQUEST OBJECT :
 { 
@@ -30,3 +31,26 @@ FRONT-END REQUEST:
 Name: newNote
 Send: Request Object Above
 Return: Response Object Above
+
+FRONT-END REQUEST:
+Name: getList
+Send: {}
+Return: {
+list: [ ...all documents]
+error: String (future feature)
+}
+
+FRONT-END REQUEST:
+Name: modify
+Send: {
+id: String
+action: String (If String == delete, delete from database, if String == update, update that document
+data: Null or Object (based on action)
+}
+Return:
+{
+copy: Object (future feature: holds original task for undo)
+error: String (future feature)
+}
+
+Add delete button every time a new task is added.

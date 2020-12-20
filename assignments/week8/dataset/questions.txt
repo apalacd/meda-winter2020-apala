@@ -1,0 +1,6 @@
+What is the average %ge increase in salary per year for each title?/Which title has the highest #ge increase year over year. Which title has the lowest.
+What title had a decrease in salary for each year
+What Union has the most members of these city jobs.
+What job title pays the most within each union code.
+How many new Jobs did each year have. Check to see if title losses are also possible.
+What title have job promotions
