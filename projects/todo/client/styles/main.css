@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(247, 240, 230)
+}
+
+#new_note {
+    color: rgb(4, 14, 158);
+}
+
+#note-title {
+    color: rgb(4, 14, 158);
+}
+
+#note-priority {
+    color: rgb(4, 14, 158);
+}
+
+#notes-list h3{
+    color:rgba(255, 68, 0, 0.842)
+}
+
+#tasks {
+    color:maroon 
+}
+
+#tasks th {
+    color: rgb(4, 14, 158);
+}
+
+#loading-icon {
+/*    visibility: hidden; */
+    display: none;
+}
+#submit {
+    color: midnightblue;
+    background-color:papayawhip;
+}
+
+#submit-message {
+    display: none;
+}
+
+#loader {
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    position: absolute;
+}
+
+#loader #loader-icon {
+    position: relative;
+}
+
+#submit-area{
+    height: 30px;
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    color:mediumblue
+}
+
+#message {
+    height: 25px;
+    position: absolute;
+/*    width: 300px;
+    color: red;
+    margin-top: 10px;
+*/
+}
+
+#message p {
+    position: relative;
+    margin-block-start: 0;
+    color: darkorchid;
+}
+
+#tasks {
+    width: 400px;
+    border: solid 1px lightseagreen;
+}
+
+
+#tasks tbody tr td:nth-child(5) {
+    position: absolute;
+    color:darkmagenta;
+}
+
+#tasks tbody tr td img {
+    display: none;
+    position: relative;
+}
